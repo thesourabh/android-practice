@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thenewpune.first"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"  >
+
+        <!-- android:theme="@style/AppTheme" -->
+        <activity
+            android:name="com.thenewpune.first.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.thenewpune.first.StartingPoint"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.thenewpune.first.STARTINGPOINT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.thenewpune.first.Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.thenewpune.first.MENU" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.thenewpune.first.AboutUs"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="com.thenewpune.first.ABOUT" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.thenewpune.first.Prefs"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.thenewpune.first.PREFS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.thenewpune.first.TextPlay"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.thenewpune.first.Email"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.thenewpune.first.Camera"
+            android:label="Camera Application"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.thenewpune.first.Data"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.thenewpune.first.OpenedClass"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.thenewpune.first.GFX"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.thenewpune.first.GFXSurface"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>

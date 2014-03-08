@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Neumann And Lovelace</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="first_person">John von Neumann</string>
+    <string name="second_person">Ada Lovelace</string>
+    <string name="first_desc">John von Neumann was a Hungarian-American pure and applied mathematician and polymath. He made major contributions to a number of fields, including mathematics, physics, economics, computer science, and statistics. He was a pioneer of the application of operator theory to quantum mechanics, in the development of functional analysis, a principal member of the Manhattan Project and the Institute for Advanced Study in Princeton, and a key figure in the development of game theory and the concepts of cellular automata, the universal constructor, and the digital computer.</string>
+    <string name="second_desc">Augusta Ada King, Countess of Lovelace, born Augusta Ada Byron and now commonly known as Ada Lovelace, was an English mathematician and writer chiefly known for her work on Charles Babbage\'s early mechanical general-purpose computer, the Analytical Engine. Her notes on the engine include what is recognised as the first algorithm intended to be carried out by a machine. Because of this, she is often described as the world\'s first computer programmer.</string>
+</resources>
